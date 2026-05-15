@@ -4,3 +4,5 @@
 
 vim.opt.scrolloff = 0
 vim.opt.relativenumber = false
+vim.g.autoformat = false
+
