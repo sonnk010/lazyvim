@@ -30,7 +30,7 @@ return {
               },
             },
             actions = {
-              copy_filename = function(picker, item)
+              copy_filename = function(picker, _)
                 local items = picker:selected({ fallback = true })
 
                 if #items == 0 then
@@ -62,7 +62,7 @@ return {
                 vim.notify("Copied " .. #filenames .. " filename(s)")
               end,
 
-              copy_filename_without_ext = function(picker, item)
+              copy_filename_without_ext = function(picker, _)
                 local items = picker:selected({ fallback = true })
 
                 if #items == 0 then
