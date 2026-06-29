@@ -94,6 +94,15 @@ return {
                 vim.notify("Copied " .. #filenames .. " filename(s) without extension")
               end,
             },
+            hidden = true,
+            ignored = true,
+          },
+          files = {
+            hidden = true,
+            ignored = true,
+          },
+          grep = {
+            hidden = true,
           },
         },
       },
