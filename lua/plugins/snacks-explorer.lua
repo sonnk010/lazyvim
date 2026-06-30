@@ -103,6 +103,7 @@ return {
           },
           grep = {
             hidden = true,
+            live = true,
           },
         },
       },
